@@ -1,0 +1,73 @@
+/* Set the font family for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Set background color */
+}
+
+/* Styles for the main container */
+.container {
+    max-width: 400px; /* Set maximum width */
+    margin: 50px auto; /* Center the container horizontally with a top margin */
+    background-color: #fff; /* Set background color */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 5px; /* Add border radius to round the container corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+}
+
+/* Styles for the heading */
+h1 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Styles for input containers */
+.input-container {
+    margin-bottom: 15px; /* Add bottom margin for input containers */
+}
+
+/* Styles for labels */
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add bottom margin */
+}
+
+/* Styles for number input fields */
+input[type="number"] {
+    width: 100%; /* Set width to 100% */
+    padding: 8px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    transition: border-color 0.3s; /* Add transition effect for border color */
+}
+
+/* Styles for number input fields when focused */
+input[type="number"]:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+
+/* Styles for buttons */
+button {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Set cursor to pointer */
+    transition: background-color 0.3s; /* Add transition effect for background color */
+}
+
+/* Styles for buttons when hovered */
+button:hover {
+    background-color: #0056b3; /* Change background color when hovered */
+}
+
+/* Styles for total cost display */
+#totalCost {
+    font-size: 18px; /* Set font size */
+    font-weight: bold; /* Set font weight to bold */
+    margin-top: 20px; /* Add top margin */
+}
+

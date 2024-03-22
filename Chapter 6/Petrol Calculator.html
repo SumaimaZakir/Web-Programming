@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Petrol Calculator</title>
+    <link rel="stylesheet" href="Petrol Calculator.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Petrol Calculator</h1>
+        <div class="input-container">
+            <label for="costPerLiter">Cost per liter:</label> <!-- Cost of per liter -->
+            <input type="number" id="costPerLiter" step="0.01" value="1.72">
+        </div>
+        <div class="input-container">
+            <label for="liters">Liters purchased:</label> <!-- Liters -->
+            <input type="number" id="liters" step="0.01" value="0">
+        </div>
+        <div class="input-container">
+            <label for="fuelEfficiency">Fuel efficiency (km/l):</label> <!-- Fuel Efficiency -->
+            <input type="number" id="fuelEfficiency" step="0.01" value="10">
+        </div>
+        <div class="input-container">
+            <label for="currency">Select currency:</label> <!-- Select Currency -->
+            <select id="currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+        </div>
+        <button id="calculateBtn">Calculate</button> <!-- Calculate Button -->
+        <p id="totalCost"></p>
+    </div>
+
+    <script src="Petrol Calculator.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
+
